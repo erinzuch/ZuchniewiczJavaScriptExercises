@@ -1,0 +1,19 @@
+// Exercise Two //
+
+<script>
+function myFunction() {
+    var text;
+    var play = prompt("Do you want to play?");
+    switch(play) {
+        case "yes":
+        text = "prompt: enter a word";
+        break;
+    case "Do you want to play again?":
+        text = "yes";
+        break;
+        case "Enter a word":
+        text = "Do you want to play again?";
+        break;
+        text= "no";
+
+</script>
