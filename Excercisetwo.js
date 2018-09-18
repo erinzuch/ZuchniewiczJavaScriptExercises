@@ -15,8 +15,14 @@
 //         break;
 //         text= "no";
 
+var question = prompt ("Do you want to play?"); 
+if (question === "yes") {
+    var result = ""
+}
 do {
- var promptInput = prompt("Do you want to play?");
- var word = prompt("Enter a word");
-} while(promptInput === "yes")
+ var word = prompt("Do you want to play?");
+ result += "" + word;
+ question = prompt ("Do you want to play?");
+} while(question === "yes")
 
+console.log(result); 
